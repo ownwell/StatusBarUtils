@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.cyning.statuscompat.demo.MainActivity">
+    <TextView
+        android:id="@+id/tvbar"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@mipmap/test" />
+    <Button
+        android:id="@+id/btnTransp"
+        android:layout_centerHorizontal="true"
+        android:text="透明、全屏的状态栏"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_below="@+id/btnTransp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnChangeAlpha"
+        android:text="改变透明度"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_below="@+id/btnChangeAlpha"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnFragment"
+        android:text="fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

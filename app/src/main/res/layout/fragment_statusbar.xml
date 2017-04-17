@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/viewEmpty"
+            android:layout_width="match_parent"
+            android:layout_height="0.1px" />
+
+        <TextView
+            android:id="@+id/tvbar"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/viewEmpty"
+            android:background="@mipmap/test" />
+
+
+        <View
+            android:id="@+id/div1"
+            android:layout_width="match_parent"
+            android:layout_height="660dp"
+            android:layout_below="@+id/tvbar" />
+
+        <EditText
+            android:id="@+id/etContent"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/div1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etContent"
+            android:text="@string/content" />
+
+    </RelativeLayout>
+</ScrollView>

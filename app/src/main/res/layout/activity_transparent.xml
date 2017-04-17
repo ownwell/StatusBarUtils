@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_purple"
+    tools:context="com.cyning.statuscompat.demo.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/content"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tvbar"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@mipmap/test" />
+
+    <SeekBar
+        android:id="@+id/sbAlpha"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="20dp" />
+</RelativeLayout>

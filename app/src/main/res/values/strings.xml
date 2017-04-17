@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">StatusBarUtils</string>
+    <string name="content">可能有些人会迷惑，为什么我们要设置彩色状态栏，在5.0可以直接设置主题来设置的，
+    我要告诉你的是我们希望4.4上也有彩色的状态栏。上节我们提到了彩色状态栏的实现方法：就是先设置为屏幕模式下的透明状态栏，
+    再在透明状态栏的垂直下方放置一个和状态栏同样高宽的view，我们操作他这个空白view的颜色，即可实现彩色状态栏。</string>
+
+</resources>

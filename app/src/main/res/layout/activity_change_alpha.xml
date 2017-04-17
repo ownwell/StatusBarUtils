@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_purple"
+    >
+    <TextView
+        android:id="@+id/tvbar"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@mipmap/test" />
+    <TextView
+        android:layout_margin="10dp"
+        android:text="@string/content"
+        android:textColor="@android:color/white"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        />
+
+
+    <SeekBar
+        android:layout_margin="20dp"
+        android:id="@+id/sbAlpha"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
